@@ -33,7 +33,7 @@ new Chaplean\Bundle\GitlabClientBundle\ChapleanGitlabClientBundle(),
 
 ## Configuration
 
-First you will need to import bundle configuration.
+First you will need to import the bundle configuration.
 
 config.yml:
 ```yaml
@@ -52,18 +52,7 @@ parameters:
 
 ## Usage
 
-Here is an example of how to use the getPipelines route.
-
-```php
-$response = $gitlabApi->getPipelines()
-    ->bindUrlParameters(['project_id' => 12, 'pipeline_id' => 42])
-    ->exec();
-    
-if ($response->succeeded()) {
-    $content = $response->getContent();
-    // your code
-}
-```
+See the rest-client-bundle's [usage documentation](https://github.com/chaplean/rest-client-bundle#using-a-bundle-based-on-rest-client-bundle).
 
 ### Available functions:
 
