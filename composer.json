@@ -29,7 +29,7 @@
     },
     "require-dev": {
         "chaplean/coding-standard": "^1.1",
-        "mockery/mockery": "dev-master",
+        "mockery/mockery": "^1.0",
         "phpunit/phpunit": "^7.0",
         "symfony/http-kernel": "^2.8 || ^3.0 || ^4.0",
         "symfony/var-dumper": "^2.8 || ^3.0 || ^4.0"
