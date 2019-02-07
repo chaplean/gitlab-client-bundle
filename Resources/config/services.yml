@@ -6,7 +6,7 @@ services:
     gitlab_api:
         class: Chaplean\Bundle\GitlabClientBundle\Api\GitlabApi
         arguments:
-            - '@guzzle.client.gitlab_api'
+            - '@eight_points_guzzle.client.gitlab_api'
             - '@event_dispatcher'
             - '%chaplean_gitlab_client.api.url%'
             - '%chaplean_gitlab_client.api.token%'

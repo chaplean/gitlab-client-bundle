@@ -3,8 +3,8 @@
 namespace Chaplean\Bundle\GitlabClientBundle\Tests\Api;
 
 use Chaplean\Bundle\GitlabClientBundle\Api\GitlabApi;
-use Chaplean\Bundle\RestClientBundle\Api\Response\Failure\InvalidParameterResponse;
-use Chaplean\Bundle\RestClientBundle\Api\Route;
+use Chaplean\Bundle\ApiClientBundle\Api\Response\Failure\InvalidParameterResponse;
+use Chaplean\Bundle\ApiClientBundle\Api\Route;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Response;
 use Mockery\Adapter\Phpunit\MockeryTestCase;
